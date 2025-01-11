@@ -30,6 +30,7 @@ nav a {
 nav a:hover {
   background-color: #555;
 }
+
 footer {
   background-color: #333;
   padding: 10px;
@@ -41,7 +42,7 @@ footer {
   height: 20px;
 }
 
-.footer-novosti{
+.footer-novosti {
   position: relative;
 }
 
@@ -68,8 +69,8 @@ footer a:hover img {
 }
 
 footer p {
-  margin: 0; 
-  line-height: 30px; 
+  margin: 0;
+  line-height: 30px;
 }
 
 footer a:last-child img {
@@ -82,24 +83,44 @@ footer a:last-child img {
 
 .main-section {
   text-align: center;
-  /*padding: 40px;*/
 }
 
 .content-container {
+  height: auto;
   max-width: 800px;
-  margin: 0 auto;  
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #333; /* Tamna pozadina */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 40px;
+  color: #fff; /* Bijeli tekst */
+}
+
+.about-container {
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #333; /* Tamna pozadina */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 40px;
+  color: #fff; /* Bijeli tekst */
 }
 
 .title {
-  color: #333;
+  color: #fff;
 }
 
 .subtitle {
-  color: #555;
+  color: #fff;
 }
 
 .description {
-  color: #777;
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -139,17 +160,18 @@ footer a:last-child img {
 }
 
 .contact-container {
-  background-color: rgb(249, 245, 245);
+  background-color: #333; /* Tamna pozadina */
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
   margin-top: 40px;
+  color: #fff; /* Bijeli tekst */
 }
 
 h1, h2 {
-  color: #333;
+  color: #fff;
 }
 
 form {
@@ -161,7 +183,7 @@ form {
 
 label {
   margin-bottom: 5px;
-  color: black;
+  color: #fff;
 }
 
 input, textarea {
@@ -195,18 +217,6 @@ iframe {
   margin-top: 20px;
 }
 
-.about-container {
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-top: 40px;
-}
-
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -219,11 +229,12 @@ iframe {
   box-sizing: border-box;
   margin: 10px;
   padding: 10px;
-  background-color: #fff;
+  background-color: #333; /* Tamna pozadina */
   border-radius: 5px;
   text-align: center;
   transition: box-shadow 0.3s;
   font-family: 'Calibri', sans-serif;
+  color: #fff; /* Bijeli tekst */
 }
 
 .image-item:hover {
@@ -234,11 +245,11 @@ iframe {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #333; /* Tamna pozadina */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
   margin-top: 40px;
+  color: #fff; /* Bijeli tekst */
 }
 
 .destination-container hr {
@@ -257,12 +268,11 @@ iframe {
 }
 
 .destination-item h2 {
-  color: #555;
-  margin-top: 10px;
+  color: #fff;
 }
 
 .destination-item p {
-  color: #777;
+  color: #fff;
   line-height: 1.6;
 }
 
@@ -279,24 +289,12 @@ iframe {
   text-decoration: underline;
 }
 
-.content-container {
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-top: 40px;
-}
-
 .content-container h1 {
-  color: #333;
+  color: #fff;
 }
 
 .content-container h3 {
-  color: #555;
+  color: #fff;
 }
 
 .content-container figure {
@@ -311,14 +309,13 @@ iframe {
 
 .content-container figcaption {
   margin-top: 10px;
-  color: #777;
+  color: #fff;
 }
 
 .content-container p {
-  color: #777;
+  color: #fff;
   line-height: 1.6;
   text-align: justify;
-
 }
 
 .content-container a {
@@ -331,7 +328,7 @@ iframe {
 }
 
 .about-container p {
-  color: #777;
+  color: #fff;
   line-height: 1.6;
   text-align: justify;
 }
