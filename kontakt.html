@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WildPlanet Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="images/png" href="images/logo.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Roko Barišić">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="IT">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Početna stranica</a>
+          <a href="novosti.html">Novosti</a>
+          <a href="onama.html">O nama</a>
+          <a href="galerija.html">Galerija</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div>
+          <div>
+            <h1>Imate li pitanja?</h1>
+          </div>
+          <div>
+            <h2>Slobodno nas kontaktirajte na:</h2>
+          </div>
+          <form action="process_form.php" method="post">
+            <label for="ime">Ime:</label>
+            <input type="text" name="ime" required placeholder="Unesite ime">
+            <br>
+            <label for="prezime">Prezime:</label>
+            <input type="text" name="prezime" required placeholder="Unesite prezime">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" required placeholder="Unesite E-mail">
+            <br>
+            <label for="poruka">Poruka:</label>
+            <textarea name="poruka" required placeholder="Unesite poruku"></textarea>
+            <br>
+            <input type="submit" value="Pošalji">
+          </form>
+          <div class="contact-info">
+            <p>Roko Barišić, Zagrebačka 5, Velika Gorica<br>099/1234567, rbaris3@vvg.hr</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22287.22446200521!2d16.0749011!3d45.7129816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667e543ebb2c65%3A0xe159703d90972cf3!2sVeleu%C4%8Dili%C5%A1te%20Velika%20Gorica!5e0!3m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <footer>
+        <p>Copyright © Roko Barišić
+          <a href="https://github.com/rbarisic99/projekt" target="_blank" rel="noopener noreferrer">
+            <img src="images/GitHub.png" alt="GitHub"></a>
+        </p>
+      </footer>
+</body>
+</html>

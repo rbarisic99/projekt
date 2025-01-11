@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WildPlanet Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="images/png" href="images/logo.ico">
+  <meta name="author" content="Roko Barišić">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Početna stranica</a>
+      <a href="novosti.html">Novosti</a>
+      <a href="onama.html">O nama</a>
+      <a href="galerija.html">Galerija</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="main-section">
+    <div class="content-container">
+      <div class="title">
+        <h1>WildPlanet Explorer</h1>
+      </div>
+      <div class="subtitle">
+        <h2>Dobrodošli u svijet divljih životinja i čudesnih prirodnih staništa!</h2>
+      </div>
+      <p class="description">Bez obzira jeste li ljubitelj prirode, fotograf divljih životinja ili jednostavno istraživač u duši, ovdje ćete pronaći inspiraciju, informacije i priče koje će vas odvesti duboko u srce divljine. Naša misija je približiti čaroliju divljeg svijeta svakom posjetitelju, prenoseći zadivljujuće trenutke koje pruža priroda.</p>
+      <p class="description">Zajedno istražujemo fascinantne životinjske vrste, neotkrivene krajeve i nevjerojatne priče iz divljine koje oduzimaju dah. Povezujemo ljude s prirodom kroz edukativne sadržaje, fotografije i savjete o očuvanju okoliša. Nastojimo biti vaša virtualna oaza za istraživanje prirodnih ljepota i staništa širom svijeta.</p>
+      <p class="description">Pridružite nam se u ovoj jedinstvenoj zajednici i otkrijte veličanstvenu ljepotu našeg planeta kroz objektiv divljine.</p>
+
+      <figure class="image-container">
+        <img src="images/lion.png" alt="Safari">
+        <figcaption>Safari, Lion</figcaption>
+      </figure>
+
+      <div class="subscription">
+        <div class="input-container">
+          <input type="text" class="email-input" placeholder="Unesite E-mail addresu">
+          <label for="click" class="subscribe-btn" onclick="subscribe()">Pretplati se</label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright © Roko Barišić
+      <a href="https://github.com/rbarisic99/projekt" target="_blank" rel="noopener noreferrer">
+        <img src="images/GitHub.png" alt="GitHub"></a>
+    </p>
+  </footer>
+
+  <script>
+    function subscribe() {
+      var email = document.getElementsByClassName('email-input')[0].value;
+      if (email){
+        alert("Uspješno ste se pretplatili!\nBit ćete preusmjereni na stranicu O nama.");
+        window.location.href = "onama.html";
+      }
+      else
+      alert("Za pretplatu je potrebno unijeti email adresu!");
+      
+    }
+  </script>
+</body>
+
+</html>
